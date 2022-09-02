@@ -7,8 +7,8 @@ prog EXE_08
 	imprima "\ntotal: ";
 	leia total;
 
-	carlos = total / 3;
-	andre = total / 3;
+	carlos = total div 3;
+	andre = total div 3;
 	felipe = total - (carlos + andre);
 
 	imprima "\nCarlos deve pagar: R$", carlos;
