@@ -1,0 +1,17 @@
+
+prog EXE_14
+	
+	real tempo, velocidade_media;
+
+	imprima "\nInforme o tempo da viagem em horas: ";
+	leia tempo;
+
+	imprima "\nVelocidade media em km/h: ";
+	leia velocidade_media;
+
+	distancia <- velocidade_media * tempo;
+	litros <- distancia / 12;
+
+	imprima "\nCusto da viagem: R$", litros * 2.90;
+
+fimprog
