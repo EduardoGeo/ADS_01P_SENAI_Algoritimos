@@ -1,0 +1,14 @@
+
+prog EXE_10
+	
+	int qtd_pessoas;
+	real renda_jogo;
+
+	imprima "\nPublico total do jogo: ";
+	leia qtd_pessoas;
+
+	renda_jogo <- ((0.1 * qtd_pessoas) * 1) + ((0.5 * qtd_pessoas) * 5) + ((0.3 * qtd_pessoas) * 10) + ((0.1 * qtd_pessoas) * 20);
+
+	imprima "\nRenda total do jogo: R$", renda_jogo;
+
+fimprog
