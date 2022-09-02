@@ -16,4 +16,3 @@ prog EXE_07
     imprima "\nValor a ser guardado na poupanca: R$", tot_arrecadado * 0.10;
 
 fimprog
-
