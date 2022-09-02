@@ -1,0 +1,22 @@
+
+prog EXE_13
+
+	int qtd_lcd, qtd_led, qtd_plasma;
+	real salario, salario_final;
+
+	imprima "\nInforme o salario: ";
+	leia salario;
+
+	imprima "\Informe a quantidade de TV LCD vendida: ";
+	leia qtd_lcd;
+
+	imprima "\Informe a quantidade de TV LED vendida: ";
+	leia qtd_led;
+
+	imprima "\Informe a quantidade de TV Plasma vendida: ";
+	leia qtd_plasma;
+
+	salario_final <- salario + ((qtd_lcd * 50) + (qtd_led * 60) + (qtd_plasma * 55));
+	imprima "\nSalario do empregado: R$", salario_final;
+
+fimprog
