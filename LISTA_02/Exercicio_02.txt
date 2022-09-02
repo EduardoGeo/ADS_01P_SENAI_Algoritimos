@@ -1,0 +1,28 @@
+
+prog EXE_02_CONVERSAO_CELSIUS
+    
+    real temperaturaF, celsius;
+
+    imprima "\nInforme a temperatura em Fahrenheit: ";
+    leia temperaturaF;
+
+    celsius <-  (temperaturaF - 32) * (5 / 9);
+
+    imprima "\nValor da temperatura informada em graus celsius e: ", celsius;
+
+fimprog
+
+
+
+prog EXE_02_CONVERSAO_POLEGADAS_MILIMETROS
+    
+    real polegadas, milimetros;
+
+    imprima "\nQuantidade de chuva em polegadas: ";
+    leia polegadas;
+
+    milimetros <- polegadas * 25.4;
+
+    imprima "\nQuantidade de chuva em milimetros e ", milimetros;
+
+fimprog

@@ -1,0 +1,30 @@
+
+prog EXE_07
+
+    real ipi, valp1, valp2, total;
+    int codp1, qtdp1, codp2, qtdp2;
+
+    imprima "\nValor do IPI: ";
+    leia ipi;
+
+    imprima "\nCodigo peca 01: "
+    leia codp1
+    imprima "\nCodigo peca 02: "
+    leia codp2
+
+    imprima "\nValor peca 01: ";
+    leia valp1;
+    imprima "\nValor peca 02: ";
+    leia valp2;
+
+    imprima "\nQuantidade peca 01: ";
+    leia qtdp1;
+    imprima "\nQuantidade peca 02: ";
+    leia qtdp2;
+
+    total <- ((valp1 * qtdp1) + (valp2 + qtdp2)) * ((ipi / 100) + 1);
+
+    imprima "\nValor total a ser pago: ";
+    leia total;
+
+fimprog

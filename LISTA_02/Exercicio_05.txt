@@ -1,0 +1,16 @@
+
+prog EXE_05
+    
+    real base, altura, volume;
+
+    imprima "\nBase: ";
+    leia base
+
+    imprima "\nAltura: ";
+    leia altura;
+
+    volume <- 1/3 * base * altura;
+
+    imprima "\nVolume da piramide: ", volume;
+
+fimprog

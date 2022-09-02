@@ -1,0 +1,14 @@
+
+prog EXE_06
+
+    int horas;
+    real total;
+
+    imprima "\nHoras de uso: ";
+    leia horas;
+
+    total <- ((horas div 3) * 8.50) + ((horas % 3) * 3.50);
+
+    imprima "\nCliente deve pagar: R$", total;
+
+fimprog

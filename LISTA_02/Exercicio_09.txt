@@ -1,0 +1,19 @@
+
+prog EXE_09
+
+    real diaria_normal, diaria_promocao, valor_S_promo, valor_C_promo, lucro_prejuizo;
+
+    imprima "\nValor da diaria normal: ";
+    leia diaria_normal;
+
+    diaria_promocao <- diaria_normal - (diaria_normal * 0.22);
+    valor_S_promo <- ((42 * 0.40) * diaria_normal * 30);
+    valor_C_promo <- ((42 * 0.70) * diaria_promocao * 30);
+    lucro_prejuizo <- valor_C_promo - valor_S_promo;
+
+    imprima "\nValor da diaria no período da promocao: R$", diaria_normal;
+    imprima "\nValor medio arrecadado SEM a promocao, durante um mes: R$", valor_S_promo;
+    imprima "\nValor medio arrecadado COM a promocao, durante um mes: R$", valor_C_promo;
+    imprima "\nLucro ou prejuizo mensal com a promocao: R$ ", lucro_prejuizo;
+
+fimprog

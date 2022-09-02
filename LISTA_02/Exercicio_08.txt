@@ -1,0 +1,27 @@
+
+prog EXE_08
+    
+    int cod_func, horas_trab, num_filhos14;
+    real valor_hora, valor_salarioF, total;
+
+    imprima "\nCodigo do funcionario: ";
+    leia cod_func;
+
+    imprima "\nHoras trabalhadas: ";
+    leia horas_trab;
+
+    imprima "\nNumero de filhos com idade inferior a 14 anos: ";
+    leia num_filhos14;
+
+    imprima "\nValor da hora trabalhada: ";
+    leia valor_hora;
+
+    imprima "\nValor do salario familia: ";
+    leia valor_salarioF;
+
+    total <- (horas_trab * valor_hora) + (valor_salarioF * num_filhos14);
+
+    imprima "\nCodigo funcionario: ", cod_func;
+    imprima "\nSalario total: R$", total;
+
+fimprog

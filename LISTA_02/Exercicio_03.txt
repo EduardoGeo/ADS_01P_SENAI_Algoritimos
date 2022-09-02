@@ -1,0 +1,13 @@
+
+prog EXE_03
+
+    real custo_fabrica, custo_consumidor;
+
+    imprima "\nInforme o custo de fabrica de um carro novo: ";
+    leia custo_fabrica;
+
+    custo_consumidor <- custo_fabrica + (custo_fabrica * 0.12) + (custo_fabrica * 0.30);
+    
+    imprima "\nCusto ao consumidor: R$", custo_consumidor;
+
+fimprog

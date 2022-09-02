@@ -1,0 +1,19 @@
+
+prog EXE_01
+    
+    real raio, altura, area_base, area_lado, custo_lata;
+
+    imprima "\nRaio em metros: ", raio;
+    leia raio;
+
+    imprima "\nAltura em metros: ", altura;
+    leia altura;
+
+    area_base <- 3.1415 * (raio**2) * 2
+    area_lado <- 2 * 3.1415 * raio * altura
+
+    custo_lata <- (area_base + area_lado) * 100
+
+    imprima "\nO custo da lata cilindrica e: R$", custo_lata;
+
+fimprog
