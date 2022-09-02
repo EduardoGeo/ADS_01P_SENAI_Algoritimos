@@ -12,5 +12,3 @@ prog EXE_03
 	escreva "\nGasto total da granja: R$", total;
     
 fimprog
-
-

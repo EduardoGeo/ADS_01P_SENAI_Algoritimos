@@ -16,7 +16,3 @@ prog EXE_09
     imprima "\nNecessario ", hamb, "kg de hamburguer";
 
 fimprog
-
-
-
-

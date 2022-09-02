@@ -13,5 +13,3 @@ prog EXE_06
     imprima "\nEstamos a ",anos, "ano(s)", meses, "mes(es) e", dias, "dia(s) sem acidentes";
 
 fimprog
-
-    

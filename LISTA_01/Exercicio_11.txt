@@ -14,4 +14,3 @@ prog EXE_11
     imprima "\nUnidade: ", unidade;
 
 fimprog
-   

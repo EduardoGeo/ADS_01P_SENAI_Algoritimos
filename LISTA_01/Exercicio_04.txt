@@ -17,4 +17,3 @@ prog EXE_04
 	escreva "\nTotal de litros de refrigerantes comprados: ", total_litros, " litros";
     
 fimprog
-
