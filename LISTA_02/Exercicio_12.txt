@@ -1,0 +1,10 @@
+
+prog EXE_12
+	
+	real numero;
+
+	imprima "\nNumero: ", numero;
+	imprima "\nQuadrado: ", numero**2;
+	imprima "\nRaiz quadrada: ", numero**1/2;
+
+fimprog
