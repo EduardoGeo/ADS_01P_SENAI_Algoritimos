@@ -1,0 +1,22 @@
+
+prog EXE_09
+    
+    int qtd_sand;
+    real pr, qj, hamb;
+    
+    imprima "\nQuantidade de sanduiches: ";
+    leia qtd_sand;
+    
+    pr <- (50 / 1000) * qtd_sand;
+    qj <- 2 * pr;
+    hamb <- (100 / 1000) * qtd_sand;
+
+    imprima "\nNecessario ", pr, "kg de presunto";
+    imprima "\nNecessario ", qj, "kg de queijo";
+    imprima "\nNecessario ", hamb, "kg de hamburguer";
+
+fimprog
+
+
+
+

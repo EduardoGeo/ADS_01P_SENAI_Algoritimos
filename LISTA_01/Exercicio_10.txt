@@ -1,0 +1,16 @@
+
+prog EXE_10
+
+    real valor_pag, valor_litro, litros;
+
+    imprima "\nInforme o valor a ser abastecido: ";
+    leia valor_pag;
+
+    imprima "\nInforme o valor do litro da gasolina: ";
+    leia valor_litro;
+
+    litros <- valor_pag / valor_litro;
+
+    escreva "\nTotal de litros a ser colocado no tanque: ", litros;
+
+fimprog

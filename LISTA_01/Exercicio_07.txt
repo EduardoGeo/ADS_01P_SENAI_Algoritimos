@@ -1,0 +1,20 @@
+
+prog EXE_07
+    
+    int qtd_pq, qtd_pf;
+    real tot_arrecadado;
+
+    imprima "\nQtd pao de queijo: ";
+    leia qtd_pq;
+
+    imprima "\nQtd pao frances: ";
+    leia qtd_pf;
+
+    tot_arrecadado <- (qtd_pq * 1.50) + (qtd_pf * 0.12);
+
+    imprima "\nValor arrecadado: R$", tot_arrecadado;
+    imprima "\nValor a ser guardado na poupanca: R$", tot_arrecadado * 0.10;
+
+fimprog
+
+

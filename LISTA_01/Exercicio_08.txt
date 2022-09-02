@@ -1,0 +1,18 @@
+
+prog EXE_08
+
+	real felipe, total;
+	int carlos, andre;
+
+	imprima "\ntotal: ";
+	leia total;
+
+	carlos = total / 3;
+	andre = total / 3;
+	felipe = total - (carlos + andre);
+
+	imprima "\nCarlos deve pagar: R$", carlos;
+	imprima "\nAndre deve pagar: R$", andre;
+	imprima "\nFelipe deve pagar: R$", felipe;
+
+fimprog

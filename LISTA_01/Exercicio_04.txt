@@ -1,0 +1,20 @@
+
+prog EXE_04
+	
+	int qtd_lata, qtd_garrafa, qtd_garrafa2l;
+	real total_litros;
+
+	escreva "\nQuantidade de latas 350ml: ";
+	leia qtd_lata;
+
+	escreva "\nQuantidade de garrafas 600ml: ";
+	leia qtd_garrafa;
+
+	escreva "\nQuantidade de garrafas 2 litros: ";
+	leia qtd_garrafa2l;
+
+	total_litros <- ((qtd_lata * 350) / 1000) + ((qtd_garrafa * 600) / 1000) + (qtd_garrafa2l * 2);
+	escreva "\nTotal de litros de refrigerantes comprados: ", total_litros, " litros";
+    
+fimprog
+

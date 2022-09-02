@@ -1,0 +1,16 @@
+
+prog EXE_03
+	
+	int qtd_frango;
+	real total;
+
+	escreva "\nQuantidade de frangos na granja: ";
+	leia qtd_frango;
+
+	total <- qtd_frango * (4 + (2 * 3.50));
+
+	escreva "\nGasto total da granja: R$", total;
+    
+fimprog
+
+

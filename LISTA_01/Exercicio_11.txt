@@ -1,0 +1,17 @@
+
+prog EXE_11
+
+    int num, centena, dezena, unidade;
+
+    imprima "\nInforme um numero inteiro de tres digitos: ";
+
+    centena <- num / 100;
+    dezena <- (num % 100) / 10;
+    unidade <- num % 10;
+
+    imprima "\nCentena: ", centena;
+    imprima "\nDezena: ", dezena;
+    imprima "\nUnidade: ", unidade;
+
+fimprog
+   

@@ -1,0 +1,13 @@
+
+prog EXE_05
+    
+    real salario;
+
+    imprima "\nInforme o salario do funcionario: ";
+    leia salario;
+
+    imprima "\nSalario inicial: R$", salario;
+    imprima "\nSalario com aumento: R$", salario * 1.15;
+    imprima "\nSalario final: R$", (salario * 1.15) * 0.92;
+
+fimprog

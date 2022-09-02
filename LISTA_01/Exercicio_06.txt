@@ -1,0 +1,17 @@
+
+prog EXE_06
+    
+    int tempo_trabalho, anos, meses, dias;
+
+    imprima "\nInforme o tempo de trabalho em dias: ";
+    leia tempo_trabalho;
+
+    anos <- tempo_trabalho / 365;
+    meses <- (tempo_trabalho % 365) / 30;
+    dias <- (tempo_trabalho % 365) % 30;
+
+    imprima "\nEstamos a ",anos, "ano(s)", meses, "mes(es) e", dias, "dia(s) sem acidentes";
+
+fimprog
+
+    

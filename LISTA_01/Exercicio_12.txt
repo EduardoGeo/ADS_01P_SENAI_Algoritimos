@@ -1,0 +1,26 @@
+
+prog EXE_12
+    
+    int qtd_1, qtd_050, qtd_025, qtd_010, qtd_005;
+    real total;
+
+    imprima "\n Quantas moedas de R$1,00: ";
+    leia qtd_1;
+
+    imprima "\n Quantas moedas de R$0,50: ";
+    leia qtd_050;
+
+    imprima "\n Quantas moedas de R$0,25: ";
+    leia qtd_025;
+
+    imprima "\n Quantas moedas de R$0,10: ";
+    leia qtd_010;
+
+    imprima "\n Quantas moedas de R$0,05: ";
+    leia qtd_005;
+
+    total <- qtd_1 + qtd_050 + qtd_025 + qtd_010 + qtd_005;
+
+    imprima "\nValor total economizado: R$", total;
+
+fimprog
