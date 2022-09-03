@@ -14,6 +14,6 @@ prog EXE_09
     imprima "\nValor da diaria no período da promocao: R$", diaria_normal;
     imprima "\nValor medio arrecadado SEM a promocao, durante um mes: R$", valor_S_promo;
     imprima "\nValor medio arrecadado COM a promocao, durante um mes: R$", valor_C_promo;
-    imprima "\nLucro ou prejuizo mensal com a promocao: R$ ", lucro_prejuizo;
+    imprima "\nLucro ou prejuizo mensal com a promocao: R$", lucro_prejuizo;
 
 fimprog
