@@ -1,0 +1,13 @@
+
+prog exercicio_1
+
+	int x, resultado;
+	
+	imprima "\nEntre com o valor de x: ";
+	leia x;
+
+	resultado <- (2 * x^2) - 3;
+
+	imprima "\nResultado da expressao: "f(x) = 2*x^2 - 3 = ", resultado;
+
+fimprog
